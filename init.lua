@@ -1,14 +1,15 @@
-require('mgazori.plugins-setup');
-require('mgazori.core.options');
-require('mgazori.core.command');
-require('mgazori.core.keymaps');
-require('mgazori.core.colorscheme');
+-- init.lua
+require('nvim-forge.plugins-setup')
+require('nvim-forge.core.options')
+require('nvim-forge.core.command')
+require('nvim-forge.core.keymaps')
+require('nvim-forge.core.colorscheme')
 
 -- plugins configurations
-require('mgazori.plugins.comment');
-require('mgazori.plugins.nvim-tree');
-require('mgazori.plugins.lualine');
-require('mgazori.plugins.coc')
-require('mgazori.plugins.gitsigns')
-require('mgazori.plugins.treesitter')
-require('mgazori.plugins.autopairs')
+require('nvim-forge.plugins.comment')
+require('nvim-forge.plugins.nvim-tree')
+require('nvim-forge.plugins.lualine')
+require('nvim-forge.plugins.coc')
+require('nvim-forge.plugins.gitsigns')
+require('nvim-forge.plugins.treesitter')
+require('nvim-forge.plugins.autopairs')
